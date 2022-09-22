@@ -28,6 +28,7 @@ public class RelativeLocators1 {
 ////		
 ////		for(WebElement label: labels) {
 ////			System.out.println(label.getText());
+				//System.out.println("change to file ");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://opensource-demo.orangehrmlive.com");
 		System.out.println(driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[3]/button[1]")).getText());
